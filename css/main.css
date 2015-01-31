@@ -10,15 +10,29 @@ html {
 	box-sizing: inherit;
 }
 
-h1, h2, h3{
+h1{
+	font-family: 'lobster', cuesive;
+}
+
+h2, h3{
 	font-family: 'lobster', cuesive;
 	color: grey;
 }
-h1{
-	color: white;
-	text-align: center;
-	padding-bottom: 5em;
+
+header{
 	background-color: black;
+	text-align: center;
+	display:block;
+	padding: .25em;}
+	
+	body {margin:0;}
+
+header h1{
+	color: white;
+	margin: 0;}
+
+main {padding: .5em;
+
 }
 
 a:hover{
@@ -53,16 +67,25 @@ figurecaption{
 	font-style: italic;
 	color: grey;
 }
+
 i{
 	font-style: italic;
+}
+dl{
+	text-align: left;
 }
 span{
 	font-style: bolder;
 	color: black;
 	font-size: 3rem;
 }
+
 nav li {
 	display: inline;
+}
+
+nav ul{
+	text-align: center;
 }
 
 nav a {
@@ -73,27 +96,29 @@ nav a {
 	text-decoration: none;
 	margin: .1em;
 	border-radius: .45em;
-	background-color: lightgrey;
-	
+	background-color: lightgrey;	
 }
 
 footer {
-		background-color: #79756f;
+		background-color: black;
 		padding: 1em;
 }
+
 footer h2{
 	color: white;
 	margin: 0;
 }
+
 footer ol{
 	margin: 0;
 	padding: 0 1rem;
+	text-decoration: none;
 }
 
 figure {
-	border: 1px solid #79756f;
+	border: 1px solid black;
 	border-radius: .4em;
 	padding:1em;
 }
-img {width:100%;}
 
+img {width:100%;}
