@@ -6,12 +6,19 @@ html {
 	color: grey; /*This is the color for fonts*/
 	height: 100vh;
 }
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
 h1, h2, h3{
 	font-family: 'lobster', cuesive;
 	color: grey;
 }
-a{
-	color: red;
+h1{
+	color: white;
+	text-align: center;
+	padding-bottom: 5em;
+	background-color: black;
 }
 
 a:hover{
@@ -33,7 +40,7 @@ blockquote{
 	font-size: 2rem;
 }
 ul{
-	list-style-type: lower-roman;	
+	list-style-type: lower-roman;
 }
 dt{
 	font-weight: bold;
@@ -54,3 +61,39 @@ span{
 	color: black;
 	font-size: 3rem;
 }
+nav li {
+	display: inline;
+}
+
+nav a {
+	text-align: center;
+	display: inline-block;
+	padding: 0.5em;
+	color: white;
+	text-decoration: none;
+	margin: .1em;
+	border-radius: .45em;
+	background-color: lightgrey;
+	
+}
+
+footer {
+		background-color: #79756f;
+		padding: 1em;
+}
+footer h2{
+	color: white;
+	margin: 0;
+}
+footer ol{
+	margin: 0;
+	padding: 0 1rem;
+}
+
+figure {
+	border: 1px solid #79756f;
+	border-radius: .4em;
+	padding:1em;
+}
+img {width:100%;}
+
