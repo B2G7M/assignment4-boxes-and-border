@@ -60,6 +60,9 @@ dt{
 	font-weight: bold;
 	color: black;
 }
+dd{
+	margin: 0;
+}
 ol{
 	list-style: circle;
 }
@@ -81,7 +84,7 @@ span{
 }
 
 nav li {
-	display: inline;
+	display: inline-block;
 }
 
 nav ul{
@@ -89,19 +92,19 @@ nav ul{
 }
 
 nav a {
-	text-align: center;
+	
 	display: inline-block;
-	padding: 0.5em;
+	padding: 0.4em;
 	color: white;
 	text-decoration: none;
-	margin: .1em;
+	margin: .3em;
 	border-radius: .45em;
 	background-color: lightgrey;	
 }
 
 footer {
 		background-color: black;
-		padding: 1em;
+		padding: 1em 3em 3em;
 }
 
 footer h2{
@@ -112,7 +115,6 @@ footer h2{
 footer ol{
 	margin: 0;
 	padding: 0 1rem;
-	text-decoration: none;
 }
 
 figure {
