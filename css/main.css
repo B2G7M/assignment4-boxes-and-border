@@ -1,0 +1,56 @@
+html { 
+	box-sizing: border-box;
+	background-color: white;
+	font-family: helvetica, sans-serif;
+	/*font-family: 'Lobster', cursive;*/
+	color: grey; /*This is the color for fonts*/
+	height: 100vh;
+}
+h1, h2, h3{
+	font-family: 'lobster', cuesive;
+	color: grey;
+}
+a{
+	color: red;
+}
+
+a:hover{
+	color: orange;
+}
+b{
+	color: grey;
+}
+em{
+	color: grey;
+}
+
+.Name{
+	text-align: right;
+}
+
+blockquote{
+	font-family: cursive;
+	font-size: 2rem;
+}
+ul{
+	list-style-type: lower-roman;	
+}
+dt{
+	font-weight: bold;
+	color: black;
+}
+ol{
+	list-style: circle;
+}
+figurecaption{
+	font-style: italic;
+	color: grey;
+}
+i{
+	font-style: italic;
+}
+span{
+	font-style: bolder;
+	color: black;
+	font-size: 3rem;
+}
